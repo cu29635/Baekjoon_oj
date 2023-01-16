@@ -1,6 +1,8 @@
-p = int(input())
-m = int(input())
-s = input()
+import sys
+
+p = int(sys.stdin.readline())
+m = int(sys.stdin.readline())
+s = sys.stdin.readline()
 arr = "I"
 cnt = 0
 for _ in range(p):
